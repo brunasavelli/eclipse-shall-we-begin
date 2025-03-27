@@ -1,10 +1,12 @@
 import styles from "./home.module.css";
+import Header from "../../components/Header";
 import Cards from "../../components/Cards";
 import React from "react";
 
 export default function Home() {
     return (
         <div className={styles.background}>
+            <Header />
             <h1>oie</h1>
 
 
