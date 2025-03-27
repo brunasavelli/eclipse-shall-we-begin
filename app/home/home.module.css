@@ -1,0 +1,13 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+}
+
+.background h1 {
+    color: #fff;
+    font-size: 3rem;
+}
