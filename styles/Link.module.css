@@ -1,0 +1,14 @@
+.p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.p:hover {
+    transform: scale(1.03);
+    color: #53001D;
+    border-bottom: 3px solid #53001D;
+    border-radius: 3px;
+    cursor: pointer;
+}
