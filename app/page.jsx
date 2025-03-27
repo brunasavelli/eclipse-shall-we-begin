@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import styles from "../styles/root.module.css";
 
 export default function Raiz() {
     const router = useRouter();
@@ -11,6 +12,8 @@ export default function Raiz() {
     }, [router]);
 	
 return (
-	<p>Redirecting …</p>
+	<div className={styles.container}>
+        <p>Redirecting …</p>
+    </div>
 );
 }
