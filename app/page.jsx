@@ -13,6 +13,7 @@ export default function Raiz() {
 	
 return (
 	<div className={styles.container}>
+        <div className={styles.spinner}></div>
         <p>Redirecting …</p>
     </div>
 );
