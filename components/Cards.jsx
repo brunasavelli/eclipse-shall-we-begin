@@ -6,9 +6,9 @@ export default function Cards({ image, product, description, price }) {
         <div className={styles.card}>
             <div className={styles.image}>{image}</div>
             <div className={styles.text}>
-                <h3>{product}</h3>
+                <h2>{product}</h2>
                 <p>{description}</p>
-                <h4>{price}</h4>
+                <h3>{price}</h3>
             </div>
         </div>
     )
