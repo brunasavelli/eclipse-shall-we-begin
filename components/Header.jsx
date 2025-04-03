@@ -1,6 +1,7 @@
 import styles from "../styles/Header.module.css";
 import Link from "../components/Link"
 import SearchBar from "../components/SearchBar";
+import Icon from "../components/Icon";
 
 export default function Header() {
     return (
@@ -23,6 +24,11 @@ export default function Header() {
             </div>
             <div className={styles.right}>
                 <SearchBar />
+                <div className={styles.icons}>
+                    <Icon  img="/fav-icon.png"/>
+                    <Icon  img="/cart-icon.png"/>
+                    <Icon  img="/user-icon.png"/>
+                </div>
             </div>
         </div>
     );
