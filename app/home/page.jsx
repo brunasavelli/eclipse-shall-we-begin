@@ -8,7 +8,6 @@ export default function Home() {
     return (
         <div className={styles.background}>
             <Header />
-            <h1>oie</h1>
 
 
 
