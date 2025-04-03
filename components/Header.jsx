@@ -1,5 +1,6 @@
 import styles from "../styles/Header.module.css";
 import Link from "../components/Link"
+import SearchBar from "../components/SearchBar";
 
 export default function Header() {
     return (
@@ -20,7 +21,9 @@ export default function Header() {
                 <Link name="Ofertas" />
                 <Link name="Contato" />
             </div>
-            
+            <div className={styles.right}>
+                <SearchBar />
+            </div>
         </div>
     );
 }
