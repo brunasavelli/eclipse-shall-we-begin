@@ -32,7 +32,7 @@
     width: 230px;
     height: 150px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -40,6 +40,7 @@
     font-size: 20px;
     font-weight: 100;
     color: #000000;
+    width: 90%;
 }
 
 .text p {
@@ -48,8 +49,51 @@
     color: #3d3d3d;
 }
 
-.text h3 {
+.text .price {
     font-size: 22px;
     font-weight: 100;
     color: #53001D;
+    position: absolute;
+    top: 665px;
+}
+
+.text .price2 {
+    font-size: 22px;
+    font-weight: 100;
+    color: #53001D;
+    position: absolute;
+    top: 1390px;
+}
+
+.iconsArea {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    gap: 6.5rem;
+}
+
+.icons .icon{
+    width: 25px;
+    height: 25px;
+}
+
+.icons .icon:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.1s ease-in-out;
+}
+.icons .icon2 {
+    width: 25px;
+    height: 25px;
+}
+
+.text .new {
+    height: 25px;
 }
