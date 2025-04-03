@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Banner from "../../components/Banner";
 import Cards from "../../components/Cards";
 import Blocos from "../../components/Blocos";
+import SignUp from "../../components/SignUp";
 import React from "react";
 
 export default function Home() {
@@ -10,8 +11,6 @@ export default function Home() {
         <div className={styles.background}>
             <Header />
             <Banner />
-
-
             <div className={styles.text}>
                 <h2>Destaques da Semana</h2>
                 <p>Ver Todos</p>
@@ -80,6 +79,7 @@ export default function Home() {
                     <img src="/new.png" style={{width: "25px", height: "25px"}} />
                 </div>} />
             </div>
+            <SignUp />
         </div>
     );
 }
