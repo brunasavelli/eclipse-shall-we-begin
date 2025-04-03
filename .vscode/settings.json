@@ -5,6 +5,7 @@
         "blocos",
         "Blocos",
         "Boné",
+        "cada",
         "calca",
         "Calça",
         "camiseta",
@@ -12,6 +13,7 @@
         "Categorias",
         "Destaques",
         "Estilo",
+        "fase",
         "Funoff",
         "Hoshwear",
         "Importada",
@@ -34,5 +36,13 @@
         "tenis",
         "Tênis",
         "Vira"
-    ]
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:eclipse}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
 }

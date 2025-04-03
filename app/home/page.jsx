@@ -2,6 +2,7 @@ import styles from "./home.module.css";
 import Header from "../../components/Header";
 import Cards from "../../components/Cards";
 import Blocos from "../../components/Blocos";
+import Footer from "../../components/Footer";
 import React from "react";
 
 export default function Home() {
@@ -79,6 +80,8 @@ export default function Home() {
                     <img src="/new.png" style={{width: "25px", height: "25px"}} />
                 </div>} />
             </div>
+            
+            <Footer />
         </div>
     );
 }
