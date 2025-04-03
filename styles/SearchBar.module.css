@@ -16,6 +16,7 @@
     border-bottom-left-radius: 20px;
     border: 1.8px solid #53001D;
     background-color: #e6e6e6;
+    cursor: pointer;
 }
 
 .searchbar input::placeholder {
