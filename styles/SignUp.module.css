@@ -1,0 +1,53 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    width: 90%;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: white;
+}
+
+.text {
+    font-size: 1rem;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    width: 12rem;
+    padding: 0.5rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.button {
+    width: 7rem;
+    height: 2.2rem;
+    background-color: #53001D;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid #53001D;
+}

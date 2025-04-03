@@ -1,17 +1,20 @@
 import styles from "./home.module.css";
 import Header from "../../components/Header";
+import Banner from "../../components/Banner";
 import Cards from "../../components/Cards";
 import Blocos from "../../components/Blocos";
+<<<<<<< HEAD
 import Footer from "../../components/Footer";
+=======
+import SignUp from "../../components/SignUp";
+>>>>>>> 9041803b21e70dd14a49851e86d72705bd7b8021
 import React from "react";
 
 export default function Home() {
     return (
         <div className={styles.background}>
             <Header />
-
-
-
+            <Banner />
             <div className={styles.text}>
                 <h2>Destaques da Semana</h2>
                 <p>Ver Todos</p>
@@ -80,8 +83,12 @@ export default function Home() {
                     <img src="/new.png" style={{width: "25px", height: "25px"}} />
                 </div>} />
             </div>
+<<<<<<< HEAD
             
             <Footer />
+=======
+            <SignUp />
+>>>>>>> 9041803b21e70dd14a49851e86d72705bd7b8021
         </div>
     );
 }

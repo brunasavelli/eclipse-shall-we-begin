@@ -5,6 +5,7 @@
     align-items: center;
     border-radius: 100%;
     background-color: #e6e6e6;
+    cursor: pointer;
 }
 
 .icon img {
