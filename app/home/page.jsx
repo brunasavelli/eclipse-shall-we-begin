@@ -1,5 +1,6 @@
 import styles from "./home.module.css";
 import Header from "../../components/Header";
+import Banner from "../../components/Banner";
 import Cards from "../../components/Cards";
 import Blocos from "../../components/Blocos";
 import React from "react";
@@ -8,7 +9,7 @@ export default function Home() {
     return (
         <div className={styles.background}>
             <Header />
-
+            <Banner />
 
 
             <div className={styles.text}>
