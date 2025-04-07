@@ -4,6 +4,7 @@ import Banner from "../../components/Banner";
 import Cards from "../../components/Cards";
 import Blocos from "../../components/Blocos";
 import SignUp from "../../components/SignUp";
+import Footer from "../../components/Footer";
 import React from "react";
 
 export default function Home() {
@@ -80,6 +81,7 @@ export default function Home() {
                 </div>} />
             </div>
             <SignUp />
+            <Footer />
         </div>
     );
 }
